@@ -77,6 +77,7 @@ function getMatchingCatsArray(){
         return matchingCatsArray 
     } 
     else {
+        error.style.display = 'block'
         error.textContent = `Please select an emotion`
     }
     
